@@ -1,0 +1,18 @@
+body .accueil {
+  display: grid;
+  grid-template: repeat(3, 1fr) / 1fr;
+  grid-template-areas:
+    "e"
+    "e"
+    "h1";
+}
+
+.accueil h1 {
+  height: fit-content;
+  width: 80%;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 156px;
+  margin-left: 30px;
+  grid-area: h1;
+}

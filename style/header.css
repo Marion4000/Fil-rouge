@@ -1,0 +1,21 @@
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px;
+  align-self: flex-start;
+}
+
+header .hline {
+  display: block;
+  width: 90vw;
+  height: 1px;
+  background-color: #edebf0;
+}

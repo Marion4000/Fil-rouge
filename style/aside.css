@@ -1,0 +1,52 @@
+nav {
+  position: fixed;
+  height: 100%;
+  width: 404px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 30px;
+  background-color: black;
+  visibility: hidden;
+}
+nav .titreFixe {
+  font-weight: 700;
+  font-size: 24px;
+}
+nav .navbar {
+  width: 22px;
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar button {
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .fleches {
+  background-color: transparent;
+}
+
+.navbar .btnPrecedent {
+  transform: rotate(180deg);
+}
+
+.navbar ul {
+  list-style: none;
+  align-self: center;
+}
+
+li .btnPagination {
+  background-color: #4f4f6a;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+nav h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
