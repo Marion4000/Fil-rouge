@@ -5,14 +5,15 @@ body .accueil {
     "e"
     "e"
     "h1";
+  height: 90vh;
 }
 
 .accueil h1 {
   height: fit-content;
   width: 80%;
-  font-size: 120px;
+  font-size: 10rem;
   font-weight: 700;
-  line-height: 156px;
+  line-height: 9.75rem;
   margin-left: 30px;
   grid-area: h1;
 }

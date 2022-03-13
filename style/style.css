@@ -3,3 +3,14 @@
 @import "aside.css";
 @import "accueil.css";
 @import "scrollbar.css";
+
+/* RESPONSIVE */
+@media screen and (max-width: 640px) {
+  .scrollsection {
+    visibility: hidden;
+  }
+  .accueil h1 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+}
