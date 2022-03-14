@@ -15,6 +15,9 @@ window.addEventListener('scroll', ()=>{
         button.classList.remove('active');
         if(button.classList.contains(current)){
             button.classList.add('active')
+        
         }
     })
+
 })
+

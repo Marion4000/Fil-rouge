@@ -1,11 +1,12 @@
 nav {
   position: fixed;
+  top: 0;
   height: 100%;
   width: 350px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
-  padding-top: 30px;
   background-color: black;
   /* visibility: hidden; */
 }
