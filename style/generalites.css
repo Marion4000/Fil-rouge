@@ -1,27 +1,32 @@
-.section_generalites {
-  position: relative;
+.article {
   display: grid;
-  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-template: 114px repeat(2, 1fr) / 55% 45%;
   grid-template-areas:
     "titre titre"
     "img pr"
     "img pl";
-  height: 90vh;
-  padding: 78px 76px 132px 37px;
-  width: 100%;
+  padding: 0px 76px 132px 403px;
+  width: 60%;
 }
-.section_generalites .titre_section {
+.article .titre_section {
   grid-area: titre;
 }
 
-.section_generalites img {
+.article img {
   grid-area: img;
+  width: 350px;
 }
-
-.section_generalites .p_regular {
+.article p {
+  max-width: 318px;
+}
+.article .p_regular {
   grid-area: pr;
+  font-size: 1.25rem;
 }
 
-.section_generalites .p_lighter {
+.article .p_lighter {
   grid-area: pl;
+  font-size: 1.125rem;
+  padding: 44px 0px 20px 0px;
+  font-weight: 300;
 }
