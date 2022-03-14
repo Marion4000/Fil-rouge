@@ -45,7 +45,9 @@ li .btnPagination {
   width: 8px;
   height: 8px;
 }
-
+li .active {
+  background-color: #a05489;
+}
 nav h2 {
   font-size: 24px;
   font-weight: 400;
