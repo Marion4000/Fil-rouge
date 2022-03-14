@@ -5,12 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 header a {
   font-size: 24px;
   font-weight: 700;
-  margin: 30px;
+  margin: 10px;
   align-self: flex-start;
 }
 

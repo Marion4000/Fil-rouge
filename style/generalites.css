@@ -5,7 +5,7 @@
     "titre titre"
     "img pr"
     "img pl";
-  padding: 0px 76px 100px 403px;
+  padding: 0px 76px 80px 403px;
   width: 60%;
 }
 .article .titre_section {
@@ -15,9 +15,6 @@
 .article img {
   grid-area: img;
   width: 350px;
-}
-.article p {
-  max-width: 318px;
 }
 .article .p_regular {
   grid-area: pr;
@@ -32,10 +29,21 @@
 }
 
 .critique {
-  grid-template: 114px repeat(3, 1fr) / auto;
+  grid-template: 114px auto 60px auto / auto;
   grid-template-areas:
     "titre "
     "img "
     "pl"
     "pr";
+}
+.critique .titre_section {
+  font-size: 2.5rem;
+}
+.critique .img_critique {
+  width: 100%;
+}
+
+.critique .p_lighter {
+  padding: 0;
+  font-size: 0.75rem;
 }

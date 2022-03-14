@@ -1,13 +1,13 @@
 nav {
   position: fixed;
   height: 100%;
-  width: 404px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
   gap: 30px;
   padding-top: 30px;
   background-color: black;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 nav .titreFixe {
   font-weight: 700;
