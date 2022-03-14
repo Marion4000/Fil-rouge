@@ -6,6 +6,7 @@ body .section_accueil {
     "e"
     "h1";
   height: 90vh;
+  margin-bottom: 150px;
 }
 
 .section_accueil h1 {
