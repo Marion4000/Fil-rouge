@@ -7,11 +7,12 @@ body .section_accueil {
     "h1";
   height: 90vh;
   margin-bottom: 150px;
+  width: 100%;
 }
 
 .section_accueil h1 {
   height: fit-content;
-  width: 80%;
+  width: 70vw;
   font-size: 8rem;
   font-weight: 700;
   line-height: 9.75rem;

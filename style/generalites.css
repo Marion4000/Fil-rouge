@@ -27,7 +27,7 @@
   padding: 44px 0px 20px 0px;
   font-weight: 300;
 }
-
+/* CRITIQUE */
 .critique {
   grid-template: 114px auto 60px auto / auto;
   grid-template-areas:

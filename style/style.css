@@ -7,11 +7,74 @@
 
 /* RESPONSIVE */
 @media screen and (max-width: 640px) {
+  html {
+    background: url(../Images/bg.png) 100%;
+  }
   .scrollsection {
     visibility: hidden;
   }
   .section_accueil h1 {
     font-size: 3rem;
     line-height: normal;
+  }
+  header {
+    visibility: hidden;
+  }
+  nav {
+    height: 40px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+  }
+
+  nav .navbar {
+    transform: rotate(90deg);
+    width: 40%;
+    justify-content: center;
+    height: inherit;
+  }
+  nav .titreFixe {
+    visibility: hidden;
+    position: fixed;
+    z-index: -1;
+  }
+  .article {
+    padding: 0 0 50px 20px;
+    grid-template: 90px repeat(3, auto) / auto;
+    grid-template-areas:
+      "titre"
+      "img"
+      "pr"
+      "pl";
+    width: 90vw;
+  }
+  .article img {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .article .p_lighter {
+    padding: 0;
+  }
+
+  .critique {
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+      "titre "
+      "img "
+      "pl"
+      "pr";
+    padding-top: 30px;
+  }
+  .critique .titre_section {
+    font-size: 1.25rem;
+  }
+  .critique .p_lighter {
+    font-size: 0.5rem;
+    padding-bottom: 30px;
   }
 }
