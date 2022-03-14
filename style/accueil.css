@@ -1,4 +1,4 @@
-body .accueil {
+body .section_accueil {
   display: grid;
   grid-template: repeat(3, 1fr) / 1fr;
   grid-template-areas:

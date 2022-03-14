@@ -1,0 +1,27 @@
+.section_generalites {
+  position: relative;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-template-areas:
+    "titre titre"
+    "img pr"
+    "img pl";
+  height: 90vh;
+  padding: 78px 76px 132px 37px;
+  width: 100%;
+}
+.section_generalites .titre_section {
+  grid-area: titre;
+}
+
+.section_generalites img {
+  grid-area: img;
+}
+
+.section_generalites .p_regular {
+  grid-area: pr;
+}
+
+.section_generalites .p_lighter {
+  grid-area: pl;
+}

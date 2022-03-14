@@ -3,6 +3,7 @@
 @import "aside.css";
 @import "accueil.css";
 @import "scrollbar.css";
+@import "generalites.css";
 
 /* RESPONSIVE */
 @media screen and (max-width: 640px) {
