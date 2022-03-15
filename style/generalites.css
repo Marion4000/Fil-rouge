@@ -1,3 +1,8 @@
+section,
+#critique {
+  padding-top: 10vh;
+  padding-left: 8vw;
+}
 .article {
   display: grid;
   grid-template: 114px repeat(2, 1fr) / 55% 45%;
@@ -5,25 +10,27 @@
     "titre titre"
     "img pr"
     "img pl";
-  padding: 0px 76px 80px 403px;
-  width: 60%;
+  padding: 0px 8vw 80px 100px;
+  width: 75vw;
+  border-left: solid 1px #edebf0;
 }
 .article .titre_section {
   grid-area: titre;
+  font-size: 2rem;
 }
 
 .article img {
   grid-area: img;
-  width: 350px;
+  max-height: 70vh;
 }
 .article .p_regular {
   grid-area: pr;
-  /* font -size: 1.25rem; */
+  font-size: 1.25rem;
 }
 
 .article .p_lighter {
   grid-area: pl;
-  /* font-size: 1.125rem; */
+  font-size: 1.125rem;
   padding: 44px 0px 20px 0px;
   font-weight: 300;
 }

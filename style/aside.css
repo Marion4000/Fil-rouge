@@ -1,55 +1,35 @@
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
-  height: 100vh;
-  width: 350px;
+  height: 8vh;
+  width: 100vw;
   display: flex;
-  justify-content: space-around;
-  gap: 30px;
-  padding-top: 30px;
-  background-color: black;
-  visibility: hidden;
-}
-nav .titreFixe {
-  font-weight: 700;
-  font-size: 24px;
-}
-nav .navbar {
-  width: 22px;
-  height: 482px;
-  display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.692);
+  padding-left: 30px;
+  /* visibility: hidden; */
 }
-
-.navbar button {
-  border: none;
-  cursor: pointer;
+.navbar {
+  width: 50vw;
 }
-
-.navbar .fleches {
-  background-color: transparent;
-}
-
-.navbar .btnPrecedent {
-  transform: rotate(180deg);
-}
-
 .navbar ul {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
   list-style: none;
   align-self: center;
 }
-
-li .btnPagination {
-  background-color: #4f4f6a;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
+nav .titreFixe {
+  font-weight: 700;
 }
 li .active {
-  background-color: #a05489;
+  color: #a05489;
+  border-bottom: 2px solid #a05489;
+  padding-bottom: 12px;
+  animation: fade-in 500ms ease-in-out forwards;
 }
-nav h2 {
-  font-size: 24px;
-  font-weight: 400;
+li a:hover {
+  color: #a05489;
 }
