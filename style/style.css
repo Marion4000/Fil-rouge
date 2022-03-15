@@ -4,6 +4,7 @@
 @import "accueil.css";
 @import "scrollbar.css";
 @import "generalites.css";
+@import "animation.css";
 
 /* RESPONSIVE */
 @media screen and (max-width: 640px) {
