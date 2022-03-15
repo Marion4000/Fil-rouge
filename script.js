@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll('section');
-const btn = document.querySelectorAll('li button');
+const aNav = document.querySelectorAll('ul li a');
 
 
 window.addEventListener('scroll', ()=>{
@@ -11,11 +11,10 @@ window.addEventListener('scroll', ()=>{
             current = section.getAttribute('id');
         }
     })
-    btn.forEach( button=>{
-        button.classList.remove('active');
-        if(button.classList.contains(current)){
-            button.classList.add('active')
-        
+    aNav.forEach(a =>{
+        a.classList.remove('active');
+        if(a.classList.contains(current)){
+            a.classList.add('active')
         }
     })
 

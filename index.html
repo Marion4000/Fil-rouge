@@ -15,74 +15,8 @@
   </head>
   <body>
     <header class="header">
-      <a href="./index.html">WEB3.0</a>
       <span class="hline"></span>
     </header>
-    <!-- SCROLL -->
-    <section class="scrollsection">
-      <p class="scrollp">scroll</p>
-      <img src="./Images/mouse icon.png" alt="icone souris" />
-    </section>
-    <!-- NAV -->
-    <nav>
-      <a href="./index.html" class="titreFixe">WEB3.0</a>
-      <div class="navbar">
-        <button class="nav_btn fleches btnPrecedent">
-          <svg
-            width="19"
-            height="12"
-            viewBox="0 0 19 12"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 1L9.21373 11L18 1"
-              stroke="#edebf0"
-              stroke-width="1.2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </svg>
-        </button>
-        <ul class="paginationSections">
-          <li>
-            <a href="#generalites">
-              <button class="generalites btnPagination sectionGeneral"></button>
-            </a>
-          </li>
-          <li>
-            <a href="#application">
-              <button
-                class="application btnPagination sectionApplications"
-              ></button
-            ></a>
-          </li>
-          <li>
-            <a href="#critique">
-              <button class="critique btnPagination sectionCritiques"></button>
-            </a>
-          </li>
-        </ul>
-        <button class="nav_btn fleches btnSuivant">
-          <svg
-            width="19"
-            height="12"
-            viewBox="0 0 19 12"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 1L9.21373 11L18 1"
-              stroke="#edebf0"
-              stroke-width="1.2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </svg>
-        </button>
-      </div>
-      <h2>Général</h2>
-    </nav>
     <!-- ACCUEIL -->
     <section class="section_accueil">
       <h1>
@@ -90,168 +24,192 @@
         Le web du futur ?
       </h1>
     </section>
-    <!-- GENERALITES WEB2 -->
-    <section id="generalites">
-      <div class="section_generalites1 article">
+
+    <div class="container">
+      <!-- NAV -->
+      <nav>
+        <a href="./index.html" class="titreFixe">WEB3.0</a>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#generalites" class="generalites"> Généralités </a>
+            </li>
+            <li>
+              <a href="#application" class="application"> Applications </a>
+            </li>
+            <li><a href="#critique" class="critique"> Critique </a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- GENERALITES WEB2 -->
+      <section id="generalites">
+        <div class="section_generalites1 article">
+          <div class="titre_section">
+            <h3>Le web2.0</h3>
+            <p>Internet centralisé</p>
+          </div>
+
+          <img
+            src="./Images/internet_centralise.png"
+            alt="Schéma internet centralisé"
+          />
+
+          <p class="p_regular">
+            Les services proposés sur internet (messagerie, site internet, ...)
+            sont hébergés sur des serveurs . <br />
+            <br />
+            Ces serveurs appartiennent pour la plupart à de grandes entreprises
+            (Amazon, Microsoft, Google, Meta, Apple | les GAFAM).
+          </p>
+
+          <p class="p_lighter">
+            Les utilisateurs sont donc dépendants de ces grandes puissances pour
+            le stockage de leurs données et la gestion des applications.
+          </p>
+        </div>
+
+        <!-- GENERALITES WEB3 -->
+        <div class="section_generalites2 article">
+          <div class="titre_section">
+            <h3>Le web3.0</h3>
+            <p>Internet décentralisé</p>
+          </div>
+
+          <img
+            src="./Images/internet_decentralise.png"
+            alt="Schéma internet decentralisé"
+          />
+
+          <p class="p_regular">
+            L’utilisation de la technologie des blockchains permet de
+            décentraliser les applications et les données. <br />
+            <br />
+            Cela améliore la protection des données et l’accessibilité aux
+            services.
+          </p>
+
+          <p class="p_lighter">
+            La blockchain est un réseau dont le principe est de stocker les
+            données et les relier entre elles sur des ordinateurs ou serveurs
+            différents. On parle d’architecture pair-a-pair.
+          </p>
+        </div>
+      </section>
+      <section id="application">
+        <!-- APPLICATION CRYPTOMONNAIE -->
+        <div class="section_application1 article">
+          <div class="titre_section">
+            <h3>La cryptomonnaie</h3>
+            <p>Devise numérique décentralisée</p>
+          </div>
+
+          <img
+            src="./Images/crytomonnaie.png"
+            alt="illustration cryptomonnaie"
+          />
+
+          <p class="p_regular">
+            C’est un élément généré par les blockchains, elle est émise de
+            pair-à-pair et non par une banque centrale. <br />
+            <br />
+            Sa valeur est déterminée uniquement par l’offre et la demande, elle
+            n’est donc pas indéxée sur la valeur d’une autre monnaie. <br />
+            <br />
+            La crytomonnaie s’obtient de deux façons, en fonction des
+            plateformes. Soit par minage, soit pas l’achat avec une monnaie
+            réelle.
+          </p>
+
+          <p class="p_lighter">
+            Le système de minage : des personnes acceptent de préter de la
+            puissance de calcul pour sécuriser la cryptomonnaie et sont
+            remerciées par une récompense.
+          </p>
+        </div>
+
+        <!-- APPLICATION NFTS -->
+        <div class="section_application2 article">
+          <div class="titre_section">
+            <h3>Les NFTs</h3>
+            <p>Elements numériques uniques</p>
+          </div>
+
+          <img src="./Images/nft.png" alt="illustration nft" />
+
+          <p class="p_regular">
+            Non-Fungible Token ou « jetons non fongibles »
+            <br />
+            <br />Unité obtenue en participant à une blockchain, ou en
+            déboursant de l’argent ou de la cryptonnaie. <br />
+            <br />
+            Il existe différentes catégories de NFTs. La majorité actuellement
+            sont des oeuvres artistiques. On retrouve aussi des collectibles,
+            des services, des parcelles numériques.
+          </p>
+
+          <p class="p_lighter">
+            Un NFTs est détenu par son propriétaire, qui peut le modifier, le
+            vendre ou le conserver.
+          </p>
+        </div>
+
+        <!-- APPLICATION METAVERS -->
+        <div class="section_application3 article">
+          <div class="titre_section">
+            <h3>Les métavers</h3>
+            <p>Des mondes numériques</p>
+          </div>
+
+          <img src="./Images/metavers.png" alt="illustration metavers" />
+
+          <p class="p_regular">
+            Ces métavers sont des univers où chaque individu a sa propre
+            identité, qu’il définit. Ils disposent de leur propre crytomonnaie,
+            qui sert à acheter et vendre des NFTs.
+            <br />
+            <br />Cette monnaie s’achète avec de l’argent réel, via différentes
+            plateformes.
+          </p>
+
+          <p class="p_lighter">
+            Les NFTs pevent prendre différentes formes, sur sandbox par exemple,
+            ce sont des parcelles de terrain qui peuvent être modifiée à
+            volontée.
+          </p>
+        </div>
+      </section>
+      <!-- CRITIQUES -->
+      <section class="section_critique article critique" id="critique">
         <div class="titre_section">
-          <h3>Le web2.0</h3>
-          <p>Internet centralisé</p>
+          <h3>Internet aux utilisateurs ?</h3>
+          <p>A qui cela profite-t-il vraiment ?</p>
         </div>
 
         <img
-          src="./Images/internet_centralise.png"
-          alt="Schéma internet centralisé"
+          src="./Images/meta conf 1.png"
+          class="img_critique"
+          alt="illustration metavers"
         />
 
         <p class="p_regular">
-          Les services proposés sur internet (messagerie, site internet, ...)
-          sont hébergés sur des serveurs . <br />
-          <br />
-          Ces serveurs appartiennent pour la plupart à de grandes entreprises
-          (Amazon, Microsoft, Google, Meta, Apple | les GAFAM).
+          Le web3.0 a pour vocation de rendre le pouvoir aux utilisateurs en
+          décentralisant les applications et services d’internet. Toutefois, on
+          peut se demander si ce système est réellement plus sécurisé dû à
+          l’absence de réglementations. <br />
+          De plus, les grands groupes qui possèdent aujourd’hui la majorité des
+          services, se sont déjà positionné et développe des applications pour
+          le web3.0, peut-on donc vraiment espérer la fin de leur monopole ?
         </p>
 
         <p class="p_lighter">
-          Les utilisateurs sont donc dépendants de ces grandes puissances pour
-          le stockage de leurs données et la gestion des applications.
-        </p>
-      </div>
-
-      <!-- GENERALITES WEB3 -->
-      <div class="section_generalites2 article">
-        <div class="titre_section">
-          <h3>Le web3.0</h3>
-          <p>Internet décentralisé</p>
-        </div>
-
-        <img
-          src="./Images/internet_decentralise.png"
-          alt="Schéma internet decentralisé"
-        />
-
-        <p class="p_regular">
-          L’utilisation de la technologie des blockchains permet de
-          décentraliser les applications et les données. <br />
+          Photographie : conférence de meta lors de la présentation du
+          metaverse.
           <br />
-          Cela améliore la protection des données et l’accessibilité aux
-          services.
+          source:
+          https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
         </p>
-
-        <p class="p_lighter">
-          La blockchain est un réseau dont le principe est de stocker les
-          données et les relier entre elles sur des ordinateurs ou serveurs
-          différents. On parle d’architecture pair-a-pair.
-        </p>
-      </div>
-    </section>
-    <section id="application">
-      <!-- APPLICATION CRYPTOMONNAIE -->
-      <div class="section_application1 article">
-        <div class="titre_section">
-          <h3>La cryptomonnaie</h3>
-          <p>Devise numérique décentralisée</p>
-        </div>
-
-        <img src="./Images/crytomonnaie.png" alt="illustration cryptomonnaie" />
-
-        <p class="p_regular">
-          C’est un élément généré par les blockchains, elle est émise de
-          pair-à-pair et non par une banque centrale. <br />
-          <br />
-          Sa valeur est déterminée uniquement par l’offre et la demande, elle
-          n’est donc pas indéxée sur la valeur d’une autre monnaie. <br />
-          <br />
-          La crytomonnaie s’obtient de deux façons, en fonction des plateformes.
-          Soit par minage, soit pas l’achat avec une monnaie réelle.
-        </p>
-
-        <p class="p_lighter">
-          Le système de minage : des personnes acceptent de préter de la
-          puissance de calcul pour sécuriser la cryptomonnaie et sont remerciées
-          par une récompense.
-        </p>
-      </div>
-
-      <!-- APPLICATION NFTS -->
-      <div class="section_application2 article">
-        <div class="titre_section">
-          <h3>Les NFTs</h3>
-          <p>Elements numériques uniques</p>
-        </div>
-
-        <img src="./Images/nft.png" alt="illustration nft" />
-
-        <p class="p_regular">
-          Non-Fungible Token ou « jetons non fongibles »
-          <br />
-          <br />Unité obtenue en participant à une blockchain, ou en déboursant
-          de l’argent ou de la cryptonnaie. <br />
-          <br />
-          Il existe différentes catégories de NFTs. La majorité actuellement
-          sont des oeuvres artistiques. On retrouve aussi des collectibles, des
-          services, des parcelles numériques.
-        </p>
-
-        <p class="p_lighter">
-          Un NFTs est détenu par son propriétaire, qui peut le modifier, le
-          vendre ou le conserver.
-        </p>
-      </div>
-
-      <!-- APPLICATION METAVERS -->
-      <div class="section_application3 article">
-        <div class="titre_section">
-          <h3>Les métavers</h3>
-          <p>Des mondes numériques</p>
-        </div>
-
-        <img src="./Images/metavers.png" alt="illustration metavers" />
-
-        <p class="p_regular">
-          Ces métavers sont des univers où chaque individu a sa propre identité,
-          qu’il définit. Ils disposent de leur propre crytomonnaie, qui sert à
-          acheter et vendre des NFTs.
-          <br />
-          <br />Cette monnaie s’achète avec de l’argent réel, via différentes
-          plateformes.
-        </p>
-
-        <p class="p_lighter">
-          Les NFTs pevent prendre différentes formes, sur sandbox par exemple,
-          ce sont des parcelles de terrain qui peuvent être modifiée à volontée.
-        </p>
-      </div>
-    </section>
-    <!-- CRITIQUES -->
-    <section class="section_critique article critique" id="critique">
-      <div class="titre_section">
-        <h3>Internet aux utilisateurs ?</h3>
-        <p>A qui cela profite-t-il vraiment ?</p>
-      </div>
-
-      <img
-        src="./Images/meta conf 1.png"
-        class="img_critique"
-        alt="illustration metavers"
-      />
-
-      <p class="p_regular">
-        Le web3.0 a pour vocation de rendre le pouvoir aux utilisateurs en
-        décentralisant les applications et services d’internet. Toutefois, on
-        peut se demander si ce système est réellement plus sécurisé dû à
-        l’absence de réglementations. <br />
-        De plus, les grands groupes qui possèdent aujourd’hui la majorité des
-        services, se sont déjà positionné et développe des applications pour le
-        web3.0, peut-on donc vraiment espérer la fin de leur monopole ?
-      </p>
-
-      <p class="p_lighter">
-        Photographie : conférence de meta lors de la présentation du metaverse.
-        <br />
-        source:
-        https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
-      </p>
-    </section>
+      </section>
+    </div>
 
     <script src="script.js"></script>
   </body>
