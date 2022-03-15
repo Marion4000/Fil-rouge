@@ -34,7 +34,7 @@
   }
 
   nav .navbar {
-    transform: rotate(90deg);
+    transform: rotate(270deg);
     width: 40%;
     justify-content: center;
     height: inherit;
@@ -62,7 +62,7 @@
     padding: 0;
   }
 
-  .critique {
+  #critique {
     grid-template: repeat(4, auto) / auto;
     grid-template-areas:
       "titre "
