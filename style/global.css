@@ -4,12 +4,9 @@
   text-decoration: none;
   font-family: "Chakra Petch", sans-serif;
   color: #edebf0;
+  box-sizing: border-box;
 }
 html {
-  background: url(../Images/bg.png) no-repeat center;
-  width: 100%;
+  background: url(../Images/bg.png) no-repeat center/cover;
   scroll-behavior: smooth;
-}
-body {
-  width: 100%;
 }

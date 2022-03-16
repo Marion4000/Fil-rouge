@@ -5,15 +5,15 @@ body .section_accueil {
     "e"
     "e"
     "h1";
-  height: 90vh;
+  min-height: 90vh;
   margin-bottom: 150px;
   padding-left: 2vw;
 }
 
 .section_accueil h1 {
   height: fit-content;
-  width: 70vw;
-  font-size: 7rem;
+  max-width: 70vw;
+  font-size: clamp(3rem, 8vw, 7rem);
   font-weight: 700;
   line-height: 9.75rem;
   margin-left: 30px;

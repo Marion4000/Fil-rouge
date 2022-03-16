@@ -7,3 +7,35 @@ header .hline {
   height: 1px;
   background-color: #edebf0;
 }
+.hide-for-desktop {
+  visibility: hidden;
+}
+
+.hide-for-mobile {
+  display: none;
+}
+/* NAV MOBILE  */
+.nav_mobile {
+  visibility: hidden;
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HAMBURGER MENU */
+#btnHamburger {
+  margin-right: 40px;
+}
+.hamburger span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #edebf0;
+}
+.hamburger span:not(last-child) {
+  margin-bottom: 6px;
+}

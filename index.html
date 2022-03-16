@@ -11,25 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>WEB3.0</title>
+    <link rel="icon" href="./Images/icone_onglet.png" />
   </head>
   <body>
     <header class="header">
       <span class="hline"></span>
-    </header>
-    <!-- ACCUEIL -->
-    <section class="section_accueil">
-      <h1>
-        Web3.0 <br />
-        Le web du futur ?
-      </h1>
-    </section>
 
-    <div class="container">
       <!-- NAV -->
       <nav>
         <a href="./index.html" class="titreFixe">WEB3.0</a>
-        <div class="navbar">
+        <div class="navbar hide-for-mobile">
           <ul>
             <li>
               <a href="#generalites" class="generalites"> Généralités </a>
@@ -40,7 +33,37 @@
             <li><a href="#critique" class="critique"> Critique </a></li>
           </ul>
         </div>
+
+        <!-- MENU HAMBURGER  -->
+
+        <a id="btnHamburger" href="#" class="hamburger hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span
+        ></a>
       </nav>
+      <!-- NAV MOBILE -->
+      <div class="nav_mobile">
+        <ul>
+          <li>
+            <a href="#generalites" class="generalites"> Généralités </a>
+          </li>
+          <li>
+            <a href="#application" class="application"> Applications </a>
+          </li>
+          <li><a href="#critique" class="critique"> Critique </a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- ACCUEIL -->
+    <section class="section_accueil">
+      <h1>
+        Web3.0 <br />
+        Le web du futur ?
+      </h1>
+    </section>
+
+    <div class="container">
       <!-- GENERALITES WEB2 -->
       <section id="generalites">
         <div class="section_generalites1 article">
@@ -52,6 +75,8 @@
           <img
             src="./Images/internet_centralise.png"
             alt="Schéma internet centralisé"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
 
           <p class="p_regular">
@@ -78,6 +103,8 @@
           <img
             src="./Images/internet_decentralise.png"
             alt="Schéma internet decentralisé"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
 
           <p class="p_regular">
@@ -106,6 +133,8 @@
           <img
             src="./Images/crytomonnaie.png"
             alt="illustration cryptomonnaie"
+            data-aos="fade-right"
+            data-aos-duration="2000"
           />
 
           <p class="p_regular">
@@ -134,7 +163,12 @@
             <p>Elements numériques uniques</p>
           </div>
 
-          <img src="./Images/nft.png" alt="illustration nft" />
+          <img
+            src="./Images/nft.png"
+            alt="illustration nft"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          />
 
           <p class="p_regular">
             Non-Fungible Token ou « jetons non fongibles »
@@ -160,7 +194,12 @@
             <p>Des mondes numériques</p>
           </div>
 
-          <img src="./Images/metavers.png" alt="illustration metavers" />
+          <img
+            src="./Images/metavers.png"
+            alt="illustration metavers"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          />
 
           <p class="p_regular">
             Ces métavers sont des univers où chaque individu a sa propre
@@ -179,38 +218,47 @@
         </div>
       </section>
       <!-- CRITIQUES -->
-      <section class="section_critique article critique" id="critique">
-        <div class="titre_section">
-          <h3>Internet aux utilisateurs ?</h3>
-          <p>A qui cela profite-t-il vraiment ?</p>
+      <section id="critique">
+        <div class="article section_critique">
+          <div class="titre_section">
+            <h3>Internet aux utilisateurs ?</h3>
+            <p>A qui cela profite-t-il vraiment ?</p>
+          </div>
+
+          <img
+            src="./Images/meta conf 1.png"
+            class="img_critique"
+            alt="illustration metavers"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          />
+
+          <p class="p_regular">
+            Le web3.0 a pour vocation de rendre le pouvoir aux utilisateurs en
+            décentralisant les applications et services d’internet. Toutefois,
+            on peut se demander si ce système est réellement plus sécurisé dû à
+            l’absence de réglementations. <br />
+            De plus, les grands groupes qui possèdent aujourd’hui la majorité
+            des services, se sont déjà positionné et développe des applications
+            pour le web3.0, peut-on donc vraiment espérer la fin de leur
+            monopole ?
+          </p>
+
+          <p class="p_lighter">
+            Photographie : conférence de meta lors de la présentation du
+            metaverse.
+            <br />
+            source:
+            https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
+          </p>
         </div>
-
-        <img
-          src="./Images/meta conf 1.png"
-          class="img_critique"
-          alt="illustration metavers"
-        />
-
-        <p class="p_regular">
-          Le web3.0 a pour vocation de rendre le pouvoir aux utilisateurs en
-          décentralisant les applications et services d’internet. Toutefois, on
-          peut se demander si ce système est réellement plus sécurisé dû à
-          l’absence de réglementations. <br />
-          De plus, les grands groupes qui possèdent aujourd’hui la majorité des
-          services, se sont déjà positionné et développe des applications pour
-          le web3.0, peut-on donc vraiment espérer la fin de leur monopole ?
-        </p>
-
-        <p class="p_lighter">
-          Photographie : conférence de meta lors de la présentation du
-          metaverse.
-          <br />
-          source:
-          https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
-        </p>
       </section>
     </div>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

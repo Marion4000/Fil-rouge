@@ -20,3 +20,27 @@ window.addEventListener('scroll', ()=>{
 
 })
 
+const btnHamburger = document.querySelector('#btnHamburger');
+const header = document.querySelector('header');
+const menuMobile = document.querySelector('.nav_mobile')
+const body = document.querySelector('body')
+
+
+btnHamburger.addEventListener('click', function(){
+    console.log('click hamburger');
+
+    if(header.classList.contains('open')){ //Close hamburger menu
+        header.classList.remove('open');
+        menuMobile.classList.add('fade-out');
+        menuMobile.classList.remove('fade-in');
+        body.classList.remove('noscroll');
+
+
+    }
+    else{ //Open hamburger menu
+    header.classList.add('open'); 
+    menuMobile.classList.add('fade-in');
+    menuMobile.classList.remove('fade-out');
+    body.classList.add('noscroll');
+}
+})

@@ -7,19 +7,9 @@
 @import "animation.css";
 
 /* RESPONSIVE */
-@media screen and (max-width: 640px) {
-  html {
-    background: url(../Images/bg.png) 100%;
-  }
-  .scrollsection {
-    visibility: hidden;
-  }
+@media screen and (max-width: 1155px) {
   .section_accueil h1 {
-    font-size: 3rem;
     line-height: normal;
-  }
-  header {
-    visibility: hidden;
   }
 
   .article {
@@ -34,7 +24,6 @@
   }
   .article img {
     padding-bottom: 20px;
-    width: 100vw;
   }
   .article .p_lighter {
     padding: 0;
@@ -49,11 +38,12 @@
       "pr";
     padding-top: 30px;
   }
-  .critique .titre_section {
-    font-size: 1.25rem;
+}
+@media screen and (max-width: 1000px) {
+  .hide-for-desktop {
+    visibility: visible;
   }
-  .critique .p_lighter {
-    font-size: 0.5rem;
-    padding-bottom: 30px;
+  .hide-for-mobile {
+    visibility: hidden;
   }
 }

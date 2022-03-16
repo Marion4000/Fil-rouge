@@ -1,5 +1,4 @@
-section,
-#critique {
+section {
   padding-top: 10vh;
   padding-left: 8vw;
 }
@@ -10,13 +9,13 @@ section,
     "titre titre"
     "img pr"
     "img pl";
-  padding: 0px 8vw 80px 100px;
-  width: 75vw;
+  padding: 0px 20px 80px 100px;
+  /* max-width: 75vw; */
   border-left: solid 1px #edebf0;
 }
 .article .titre_section {
   grid-area: titre;
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 1.5rem, 2rem);
 }
 
 .article img {
@@ -30,12 +29,12 @@ section,
 
 .article .p_lighter {
   grid-area: pl;
-  font-size: 1.125rem;
+  font-size: clamp(0.5rem, 1rem, 1.125rem);
   padding: 44px 0px 20px 0px;
   font-weight: 300;
 }
 /* CRITIQUE */
-.critique {
+#critique .section_critique {
   grid-template: 114px auto 60px auto / auto;
   grid-template-areas:
     "titre "
@@ -43,14 +42,12 @@ section,
     "pl"
     "pr";
 }
-.critique .titre_section {
-  font-size: 2.5rem;
-}
-.critique .img_critique {
-  width: 100%;
+
+.section_critique .img_critique {
+  max-width: 100%;
 }
 
-.critique .p_lighter {
+.section_critique .p_lighter {
   padding: 0;
   font-size: 0.75rem;
 }
