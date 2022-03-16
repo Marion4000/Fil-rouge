@@ -6,7 +6,13 @@
   color: #edebf0;
   box-sizing: border-box;
 }
+
 html {
   background: url(../Images/bg.png) no-repeat center/cover;
   scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }

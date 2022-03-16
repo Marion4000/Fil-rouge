@@ -5,7 +5,7 @@
 @import "scrollbar.css";
 @import "generalites.css";
 @import "animation.css";
-
+@import "footer.css";
 /* RESPONSIVE */
 @media screen and (max-width: 1155px) {
   .section_accueil h1 {
@@ -36,7 +36,7 @@
       "img "
       "pl"
       "pr";
-    padding-top: 30px;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -44,6 +44,6 @@
     visibility: visible;
   }
   .hide-for-mobile {
-    visibility: hidden;
+    display: none;
   }
 }

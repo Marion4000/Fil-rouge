@@ -14,7 +14,9 @@ header .hline {
 /* NAV MOBILE  */
 .nav_mobile {
   visibility: hidden;
-  background-color: black;
+  position: fixed;
+  top: 8vh;
+  background-color: #070717;
   position: absolute;
   width: 100%;
   display: flex;
@@ -23,6 +25,16 @@ header .hline {
   align-items: center;
 }
 
+.nav_mobile ul {
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  height: 50vh;
+  font-size: 1.5rem;
+}
+.nav_mobile li:hover {
+  color: #a05489;
+}
 /* HAMBURGER MENU */
 #btnHamburger {
   margin-right: 20px;
@@ -35,4 +47,16 @@ header .hline {
 }
 .hamburger span:not(last-child) {
   margin-bottom: 6px;
+}
+
+/* OVERLAY */
+.overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 8vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: linear-gradient(#151459, #0b0a2cab);
 }

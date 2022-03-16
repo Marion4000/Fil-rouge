@@ -6,26 +6,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgba(0, 0, 0, 0.692); */
+  background-color: rgba(0, 0, 0, 0.692);
   padding-left: 30px;
 }
 
-.nav_mobile {
-  visibility: hidden;
-  background-color: black;
-  position: absolute;
-  width: 100%;
-}
-.nav_mobile ul {
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 20px;
-  height: 50vh;
-  font-size: 1.5rem;
-}
-.nav_mobile li:hover {
-  color: #a05489;
-}
 .navbar {
   width: 50vw;
 }
