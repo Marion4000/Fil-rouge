@@ -11,9 +11,6 @@ header .hline {
   visibility: hidden;
 }
 
-.hide-for-mobile {
-  display: none;
-}
 /* NAV MOBILE  */
 .nav_mobile {
   visibility: hidden;
