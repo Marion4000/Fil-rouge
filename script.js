@@ -44,6 +44,5 @@ btnHamburger.addEventListener('click', function(){
         overlay.classList.remove('fade-out');
         menuMobile.classList.add('fade-in');
         menuMobile.classList.remove('fade-out');
-        menuMobile.classList.toggle('nav-open');
 }
 })
