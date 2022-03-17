@@ -2,53 +2,51 @@ section {
   padding-top: 10vh;
   padding-left: 8vw;
 }
-.article {
-  display: grid;
-  grid-template: 114px repeat(2, 1fr) / 55% 45%;
-  grid-template-areas:
-    "titre titre"
-    "img pr"
-    "img pl";
-  padding: 0px 50px 80px 100px;
-  /* max-width: 75vw; */
-  border-left: solid 1px #edebf0;
+.h3 {
+  font-size: clamp(2rem, 2.5rem, 4rem);
+  font-weight: 700;
+  color: rgba(160, 84, 137, 1);
 }
-.article .titre_section {
-  grid-area: titre;
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 60px;
+}
+.article,
+.section_critique {
+  border-left: solid 1px #edebf0;
+  padding: 0px 50px 80px 100px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  gap: 46px;
+}
+.article .titre_section,
+.titre_sectioncritique {
   font-size: clamp(1.25rem, 1.5rem, 2rem);
 }
 
 .article img {
-  grid-area: img;
-  max-height: 70vh;
+  max-height: 60vh;
 }
 .article .p_regular {
-  grid-area: pr;
   font-size: 1.25rem;
 }
 
 .article .p_lighter {
-  grid-area: pl;
   font-size: clamp(0.5rem, 1rem, 1.125rem);
   padding: 44px 0px 20px 0px;
   font-weight: 300;
 }
 
 /* CRITIQUE */
-#critique .section_critique {
-  grid-template: 114px auto 60px auto / auto;
-  grid-template-areas:
-    "titre "
-    "img "
-    "pl"
-    "pr";
+.section_critique .titre_sectioncritique {
+  margin-bottom: 10px;
 }
-
-.section_critique .img_critique {
-  max-width: 100%;
-}
-
 .section_critique .p_lighter {
-  padding: 0;
-  font-size: 0.75rem;
+  margin: 10px 0 20px 0;
 }

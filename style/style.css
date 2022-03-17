@@ -12,15 +12,11 @@
     line-height: normal;
   }
 
-  .article {
-    padding: 0 0 50px 20px;
-    grid-template: 90px repeat(3, auto) / auto;
-    grid-template-areas:
-      "titre"
-      "img"
-      "pr"
-      "pl";
+  .article,
+  .container {
+    flex-direction: column;
     width: 90vw;
+    padding: 10px;
   }
   .article img {
     padding-bottom: 20px;
@@ -30,13 +26,20 @@
   }
 
   #critique {
-    grid-template: repeat(4, auto) / auto;
-    grid-template-areas:
-      "titre "
-      "img "
-      "pl"
-      "pr";
     margin-top: 30px;
+  }
+  .section_critique .p_lighter {
+    margin: 10px 0 10px 0;
+  }
+  .article,
+  .section_critique {
+    border-left: solid 1px #edebf0;
+    padding: 0px 10px 10px 10px;
+  }
+
+  .section_generalites2 .container,
+  .section_application2 .container {
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 1000px) {
