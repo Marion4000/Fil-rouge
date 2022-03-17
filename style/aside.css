@@ -15,7 +15,7 @@ nav {
 }
 ul {
   display: flex;
-  max-width: 500px;
+  /* max-width: 500px; */
   justify-content: space-between;
   list-style: none;
   align-self: center;

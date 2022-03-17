@@ -33,6 +33,10 @@ section {
   padding: 44px 0px 20px 0px;
   font-weight: 300;
 }
+
+.section_application3 .p {
+  padding-left: 30px;
+}
 /* CRITIQUE */
 #critique .section_critique {
   grid-template: 114px auto 60px auto / auto;
