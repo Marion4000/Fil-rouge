@@ -22,7 +22,7 @@ window.addEventListener('scroll', ()=>{
 
 const btnHamburger = document.querySelector('#btnHamburger');
 const header = document.querySelector('header');
-const menuMobile = document.querySelector('.nav_mobile');
+const menuMobile = document.querySelector('nav');
 const overlay = document.querySelector('.overlay');
 
 
@@ -35,14 +35,15 @@ btnHamburger.addEventListener('click', function(){
         overlay.classList.add('fade-out');
         menuMobile.classList.add('fade-out');
         menuMobile.classList.remove('fade-in');
-
-
+        
+        
     }
     else{ //Open hamburger menu
-    header.classList.add('open'); 
-    overlay.classList.add('fade-in');
-    overlay.classList.remove('fade-out');
-    menuMobile.classList.add('fade-in');
-    menuMobile.classList.remove('fade-out');
+        header.classList.add('open'); 
+        overlay.classList.add('fade-in');
+        overlay.classList.remove('fade-out');
+        menuMobile.classList.add('fade-in');
+        menuMobile.classList.remove('fade-out');
+        menuMobile.classList.toggle('nav-open');
 }
 })
