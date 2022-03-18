@@ -16,7 +16,7 @@ window.addEventListener('scroll', ()=>{
 
 const btnHamburger = document.querySelector('#btnHamburger');
 const header = document.querySelector('header');
-const menuMobile = document.querySelector('.nav_mobile');
+const menuMobile = document.querySelector('nav');
 const overlay = document.querySelector('.overlay');
 
 

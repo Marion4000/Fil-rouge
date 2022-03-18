@@ -8,6 +8,19 @@
 @import "footer.css";
 /* RESPONSIVE */
 @media screen and (max-width: 1155px) {
+  nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s;
+  }
+  .nav-mobile {
+    transform: translateX(0);
+  }
   .section_accueil h1 {
     line-height: normal;
   }
