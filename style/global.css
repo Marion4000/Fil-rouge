@@ -8,10 +8,11 @@
 }
 
 html {
-  background: url(../Images/bg.png) no-repeat center/cover;
   scroll-behavior: smooth;
 }
-
+body {
+  background: url(../Images/bg.png) no-repeat center/cover;
+}
 img {
   display: block;
   max-width: 100%;

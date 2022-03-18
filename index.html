@@ -34,9 +34,7 @@
             <li><a href="#critique" class="critique"> Pour nuancer </a></li>
           </ul>
         </div>
-
         <!-- MENU HAMBURGER  -->
-
         <a id="btnHamburger" href="#" class="hamburger hide-for-desktop">
           <span></span>
           <span></span>
@@ -44,7 +42,7 @@
         ></a>
       </nav>
       <!-- NAV MOBILE -->
-      <div class="nav_mobile">
+      <div class="nav_mobile hide-for-desktop">
         <ul>
           <li>
             <a href="#generalites" class="generalites"> Généralités </a>
@@ -64,171 +62,187 @@
       </h1>
     </section>
 
-    <div class="container">
+    <div class="bigcontainer">
       <!-- GENERALITES WEB2 -->
       <section id="generalites">
         <div class="section_generalites1 article">
           <div class="titre_section">
-            <h3>Le web2.0</h3>
+            <h3 class="h3">Le web2.0</h3>
             <p>Internet centralisé</p>
           </div>
+          <div class="container">
+            <img
+              src="./Images/internet_centralise.png"
+              data-aos-anchor=".section_generalites1"
+              alt="Schéma internet centralisé"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            />
+            <div class="texte">
+              <p class="p_regular">
+                Les services proposés sur internet (messagerie, site internet,
+                ...) sont hébergés sur des serveurs . <br />
+                <br />
+                Ces serveurs appartiennent pour la plupart à de grandes
+                entreprises (Amazon, Microsoft, Google, Meta, Apple | les
+                GAFAM).
+              </p>
 
-          <img
-            src="./Images/internet_centralise.png"
-            data-aos-anchor=".section_generalites1"
-            alt="Schéma internet centralisé"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          />
-
-          <p class="p_regular">
-            Les services proposés sur internet (messagerie, site internet, ...)
-            sont hébergés sur des serveurs . <br />
-            <br />
-            Ces serveurs appartiennent pour la plupart à de grandes entreprises
-            (Amazon, Microsoft, Google, Meta, Apple | les GAFAM).
-          </p>
-
-          <p class="p_lighter">
-            Les utilisateurs sont donc dépendants de ces grandes puissances pour
-            le stockage de leurs données et la gestion des applications.
-          </p>
+              <p class="p_lighter">
+                Les utilisateurs sont donc dépendants de ces grandes puissances
+                pour le stockage de leurs données et la gestion des
+                applications.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- GENERALITES WEB3 -->
         <div class="section_generalites2 article">
           <div class="titre_section">
-            <h3>Le web3.0</h3>
+            <h3 class="h3">Le web3.0</h3>
             <p>Internet décentralisé</p>
           </div>
+          <div class="container">
+            <div class="texte">
+              <p class="p_regular">
+                L’utilisation de la technologie des blockchains permet de
+                décentraliser les applications et les données. <br />
+                <br />
+                Cela améliore la protection des données et l’accessibilité aux
+                services.
+              </p>
 
-          <img
-            src="./Images/internet_decentralise.png"
-            alt="Schéma internet decentralisé"
-            data-aos-anchor=".section_generalites2"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          />
-
-          <p class="p_regular">
-            L’utilisation de la technologie des blockchains permet de
-            décentraliser les applications et les données. <br />
-            <br />
-            Cela améliore la protection des données et l’accessibilité aux
-            services.
-          </p>
-
-          <p class="p_lighter">
-            La blockchain est un réseau dont le principe est de stocker les
-            données et les relier entre elles sur des ordinateurs ou serveurs
-            différents. On parle d’architecture pair-a-pair.
-          </p>
+              <p class="p_lighter">
+                La blockchain est un réseau dont le principe est de stocker les
+                données et les relier entre elles sur des ordinateurs ou
+                serveurs différents. On parle d’architecture pair-a-pair.
+              </p>
+            </div>
+            <img
+              src="./Images/internet_decentralise.png"
+              alt="Schéma internet decentralisé"
+              data-aos-anchor=".section_generalites2"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            />
+          </div>
         </div>
       </section>
       <section id="application">
         <!-- APPLICATION CRYPTOMONNAIE -->
         <div class="section_application1 article">
           <div class="titre_section">
-            <h3>La cryptomonnaie</h3>
+            <h3 class="h3">La cryptomonnaie</h3>
             <p>Devise numérique décentralisée</p>
           </div>
 
-          <img
-            src="./Images/crytomonnaie.png"
-            alt="illustration cryptomonnaie"
-            data-aos-anchor=".section_application1"
-            data-aos="fade-right"
-            data-aos-duration="2000"
-          />
+          <div class="container">
+            <img
+              src="./Images/crytomonnaie.png"
+              alt="illustration cryptomonnaie"
+              data-aos-anchor=".section_application1"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
+            <div class="texte">
+              <p class="p_regular">
+                C’est un élément généré par les blockchains, elle est émise de
+                pair-à-pair et non par une banque centrale. <br />
+                <br />
+                Sa valeur est déterminée uniquement par l’offre et la demande,
+                elle n’est donc pas indéxée sur la valeur d’une autre monnaie.
+                <br />
+                <br />
+                La crytomonnaie s’obtient de deux façons, en fonction des
+                plateformes. Soit par minage, soit pas l’achat avec une monnaie
+                réelle.
+              </p>
 
-          <p class="p_regular">
-            C’est un élément généré par les blockchains, elle est émise de
-            pair-à-pair et non par une banque centrale. <br />
-            <br />
-            Sa valeur est déterminée uniquement par l’offre et la demande, elle
-            n’est donc pas indéxée sur la valeur d’une autre monnaie. <br />
-            <br />
-            La crytomonnaie s’obtient de deux façons, en fonction des
-            plateformes. Soit par minage, soit pas l’achat avec une monnaie
-            réelle.
-          </p>
-
-          <p class="p_lighter">
-            Le système de minage : des personnes acceptent de préter de la
-            puissance de calcul pour sécuriser la cryptomonnaie et sont
-            remerciées par une récompense.
-          </p>
+              <p class="p_lighter">
+                Le système de minage : des personnes acceptent de préter de la
+                puissance de calcul pour sécuriser la cryptomonnaie et sont
+                remerciées par une récompense.
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- APPLICATION NFTS -->
         <div class="section_application2 article">
           <div class="titre_section">
-            <h3>Les NFTs</h3>
+            <h3 class="h3">Les NFTs</h3>
             <p>Elements numériques uniques</p>
           </div>
 
-          <img
-            src="./Images/nft.png"
-            alt="illustration nft"
-            data-aos-anchor=".section_application2"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          />
+          <div class="container">
+            <div class="texte">
+              <p class="p_regular">
+                Non-Fungible Token ou « jetons non fongibles »
+                <br />
+                <br />Unité obtenue en participant à une blockchain, ou en
+                déboursant de l’argent ou de la cryptonnaie. <br />
+                <br />
+                Il existe différentes catégories de NFTs. La majorité
+                actuellement sont des oeuvres artistiques. On retrouve aussi des
+                collectibles, des services, des parcelles numériques.
+              </p>
 
-          <p class="p_regular">
-            Non-Fungible Token ou « jetons non fongibles »
-            <br />
-            <br />Unité obtenue en participant à une blockchain, ou en
-            déboursant de l’argent ou de la cryptonnaie. <br />
-            <br />
-            Il existe différentes catégories de NFTs. La majorité actuellement
-            sont des oeuvres artistiques. On retrouve aussi des collectibles,
-            des services, des parcelles numériques.
-          </p>
-
-          <p class="p_lighter">
-            Un NFTs est détenu par son propriétaire, qui peut le modifier, le
-            vendre ou le conserver.
-          </p>
+              <p class="p_lighter">
+                Un NFTs est détenu par son propriétaire, qui peut le modifier,
+                le vendre ou le conserver.
+              </p>
+            </div>
+            <img
+              src="./Images/nft.png"
+              alt="illustration nft"
+              data-aos-anchor=".section_application2"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            />
+          </div>
         </div>
 
         <!-- APPLICATION METAVERS -->
         <div class="section_application3 article">
           <div class="titre_section">
-            <h3>Les métavers</h3>
+            <h3 class="h3">Les métavers</h3>
             <p>Des mondes numériques</p>
           </div>
 
-          <img
-            src="./Images/metavers.png"
-            alt="illustration metavers"
-            data-aos-anchor=".section_application3"
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            class="metavers"
-          />
+          <div class="container">
+            <img
+              src="./Images/metavers.png"
+              alt="illustration metavers"
+              data-aos-anchor=".section_application3"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              class="metavers"
+            />
+            <div class="texte">
+              <p class="p_regular p">
+                Ces métavers sont des univers où chaque individu a sa propre
+                identité, qu’il définit. Ils disposent de leur propre
+                crytomonnaie, qui sert à acheter et vendre des NFTs.
+                <br />
+                <br />Cette monnaie s’achète avec de l’argent réel, via
+                différentes plateformes.
+              </p>
 
-          <p class="p_regular p">
-            Ces métavers sont des univers où chaque individu a sa propre
-            identité, qu’il définit. Ils disposent de leur propre crytomonnaie,
-            qui sert à acheter et vendre des NFTs.
-            <br />
-            <br />Cette monnaie s’achète avec de l’argent réel, via différentes
-            plateformes.
-          </p>
-
-          <p class="p_lighter p">
-            Les NFTs pevent prendre différentes formes, sur sandbox par exemple,
-            ce sont des parcelles de terrain qui peuvent être modifiée à
-            volontée.
-          </p>
+              <p class="p_lighter p">
+                Les NFTs pevent prendre différentes formes, sur sandbox par
+                exemple, ce sont des parcelles de terrain qui peuvent être
+                modifiée à volontée.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <!-- CRITIQUES -->
       <section id="critique">
-        <div class="article section_critique">
-          <div class="titre_section">
-            <h3>Internet aux utilisateurs ?</h3>
+        <div class="section_critique">
+          <div class="titre_sectioncritique">
+            <h3 class="h3">Internet aux utilisateurs ?</h3>
             <p>A qui cela profite-t-il vraiment ?</p>
           </div>
 
@@ -240,7 +254,13 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           />
-
+          <p class="p_lighter">
+            Photographie : conférence de meta lors de la présentation du
+            metaverse.
+            <br />
+            source:
+            https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
+          </p>
           <p class="p_regular">
             Le web3.0 a pour vocation de rendre le pouvoir aux utilisateurs en
             décentralisant les applications et services d’internet. Toutefois,
@@ -251,14 +271,6 @@
             pour le web3.0, peut-on donc vraiment espérer la fin de leur
             monopole ?
           </p>
-
-          <p class="p_lighter">
-            Photographie : conférence de meta lors de la présentation du
-            metaverse.
-            <br />
-            source:
-            https://www.businessinsider.com/facebook-big-terrifying-dream-wechat-communication-backbone-western-world-2019-3?r=US&IR=T
-          </p>
         </div>
       </section>
     </div>
@@ -266,15 +278,6 @@
     <!-- FOOTER  -->
     <footer class="footer">
       <p>&copy; Marion Marrot | 2022</p>
-      <ul>
-        <li><a href="https://www.instagram.com/bb_eight1/">Instagram</a></li>
-        <li>
-          <a
-            href="https://www.linkedin.com/feed/?trk=seo-authwall-base_google-sign-in-submit"
-            >Linkedin</a
-          >
-        </li>
-      </ul>
     </footer>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

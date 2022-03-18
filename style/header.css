@@ -1,3 +1,10 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 header .hline {
   display: block;
   position: fixed;
@@ -10,14 +17,12 @@ header .hline {
 .hide-for-desktop {
   visibility: hidden;
 }
-
 /* NAV MOBILE  */
 .nav_mobile {
   visibility: hidden;
-  position: fixed;
+  position: absolute;
   top: 8vh;
   background-color: #070717;
-  position: absolute;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -37,6 +42,7 @@ header .hline {
 }
 /* HAMBURGER MENU */
 #btnHamburger {
+  z-index: 1111111111111;
   margin-right: 20px;
 }
 .hamburger span {
@@ -58,5 +64,5 @@ header .hline {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background-image: linear-gradient(#151459, #0b0a2cab);
+  background-image: linear-gradient(#151459, #0b0a2cc9);
 }

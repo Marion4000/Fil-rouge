@@ -11,14 +11,8 @@ window.addEventListener('scroll', ()=>{
             current = section.getAttribute('id');
         }
     })
-    aNav.forEach(a =>{
-        a.classList.remove('active');
-        if(a.classList.contains(current)){
-            a.classList.add('active')
-        }
     })
 
-})
 
 const btnHamburger = document.querySelector('#btnHamburger');
 const header = document.querySelector('header');
@@ -35,14 +29,14 @@ btnHamburger.addEventListener('click', function(){
         overlay.classList.add('fade-out');
         menuMobile.classList.add('fade-out');
         menuMobile.classList.remove('fade-in');
-
-
+        
+        
     }
     else{ //Open hamburger menu
-    header.classList.add('open'); 
-    overlay.classList.add('fade-in');
-    overlay.classList.remove('fade-out');
-    menuMobile.classList.add('fade-in');
-    menuMobile.classList.remove('fade-out');
+        header.classList.add('open'); 
+        overlay.classList.add('fade-in');
+        overlay.classList.remove('fade-out');
+        menuMobile.classList.add('fade-in');
+        menuMobile.classList.remove('fade-out');
 }
 })
