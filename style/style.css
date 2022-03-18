@@ -8,6 +8,9 @@
 @import "footer.css";
 /* RESPONSIVE */
 @media screen and (max-width: 1155px) {
+  .nav-open {
+    visibility: visible;
+  }
   .section_accueil h1 {
     line-height: normal;
   }
@@ -42,13 +45,11 @@
   .section_application2 .container {
     flex-direction: column-reverse;
   }
-}
-@media screen and (max-width: 1000px) {
-  .hide-for-desktop {
-    visibility: visible;
-  }
   .hide-for-mobile {
-    visibility: hidden;
+    display: none;
+  }
+  .active {
+    color: transparent;
   }
 }
 

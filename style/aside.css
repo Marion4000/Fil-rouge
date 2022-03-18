@@ -1,14 +1,8 @@
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 8vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.692);
-  padding-left: 30px;
+  padding-right: 30vh;
 }
 
 .navbar {
@@ -28,7 +22,7 @@ nav .titreFixe {
 .active {
   color: #a05489;
   border-bottom: 2px solid #a05489;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   animation: fade-in 500ms ease-in-out forwards;
 }
 li a:hover {

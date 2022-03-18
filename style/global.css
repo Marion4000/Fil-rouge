@@ -12,6 +12,7 @@ html {
 }
 body {
   background: url(../Images/bg.png) no-repeat center/cover;
+  overflow-x: hidden;
 }
 img {
   display: block;
