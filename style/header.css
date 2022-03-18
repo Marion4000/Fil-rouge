@@ -14,9 +14,7 @@ header .hline {
   height: 1px;
   background-color: #edebf0;
 }
-.hide-for-desktop {
-  visibility: hidden;
-}
+
 /* NAV MOBILE  */
 .nav_mobile {
   visibility: hidden;
@@ -65,4 +63,8 @@ header .hline {
   left: 0px;
   right: 0px;
   background-image: linear-gradient(#151459, #0b0a2cc9);
+}
+
+.hide-for-desktop {
+  visibility: hidden;
 }
