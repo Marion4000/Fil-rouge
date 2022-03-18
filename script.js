@@ -1,19 +1,24 @@
 const sections = document.querySelectorAll('section');
-const aNav = document.querySelectorAll('ul li a');
+const aNav = document.querySelectorAll('.navbar a');
 
 
-window.addEventListener('scroll', ()=>{
+window.addEventListener('scroll', ()=> {
     let current ='';
-    sections.forEach( section =>{
+    sections.forEach( section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
         if(pageYOffset >= sectionTop){
             current = section.getAttribute('id');
         }
     })
+    
+aNav.forEach( a => {
+        a.classList.remove('active');
+        if(a.classList.contains(current)){
+            a.classList.add('active')
+        } }
+        )
     })
-
-
 const btnHamburger = document.querySelector('#btnHamburger');
 const header = document.querySelector('header');
 const menuMobile = document.querySelector('nav');

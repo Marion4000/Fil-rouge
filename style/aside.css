@@ -25,7 +25,7 @@ ul {
 nav .titreFixe {
   font-weight: 700;
 }
-li .active {
+.active {
   color: #a05489;
   border-bottom: 2px solid #a05489;
   padding-bottom: 12px;
